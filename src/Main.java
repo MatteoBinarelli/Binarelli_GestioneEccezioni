@@ -3,8 +3,10 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        int a = 10;
-        int b = 0;
+        System.out.println("inserisci primo numero: ");
+        int a = scanner.nextInt();
+        System.out.println("inserisci secondo numero: ");
+        int b = scanner.nextInt();
 
         try{
             int c = a / b;
